@@ -2,7 +2,7 @@ import click
 
 
 @click.command()
-@click.argument('text_file_path', default ='C:/Users/hp/Documents/Quadratyx/QTX_Activities/inputVowel.txt')
+@click.argument('text_file_path', default ='#input the text file path')
 def CLI_Vowel(text_file_path):
     """counts the no. of vowels in a text file."""
 
